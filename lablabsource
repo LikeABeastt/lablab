@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>hello jo</title>
+  
+</head>
+<style>
+body{
+  
+  
+}
+h2{
+  text-align: center;
+  
+}
+input[type=button]{
+  padding: 10px;
+  background-color: black;
+  border: 1px solid white;
+  color:white;
+  margin-left: 20px;
+}
+input:hover{
+background-color:green;
+color: red;
+}
+.container{
+  
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+#yie{
+  display: none;
+}
+#no1{
+  position:absolute;
+  top:50%;
+  right: 10px;
+  display: none;
+}
+#no2{
+  position:absolute;
+  top:60%;
+  right: 20%;
+  display: none;
+}
+#no3{
+  position:absolute;
+  top:60%;
+  right: 50%;
+  display: none;
+}
+#no4{
+  position:absolute;
+  top:60%;
+  right: 80%;
+display: none;
+}
+#no5{
+  position:absolute;
+  top:50%;
+  right: 80%;
+display: none;
+}
+#no6{
+  position:absolute;
+  top:40%;
+  right: 80%;
+display: none;
+}
+</style>
+<body>
+  <div class="container">
+    
+
+  <h2 id="first">lablab moko? lablab kita eh</h2>
+  <h1 id="yie">Yieeeee 🥴🥴</h1>
+  <input type="button" id="yes" onclick="pressyes()" value="lablab din kita"></input>
+  <input type="button" id="no" onclick="pressno()" value="hindi eh"   ></input>
+  </div>
+  <input type="button" id="no1" value="hindi eh" onclick="pressno1()"/>
+ <input type="button" id="no2"   value="hindi eh" 
+onclick="pressno2()"
+ />
+  <input type="button" id="no3"  
+onclick="pressno3()"
+  value="hindi eh"/>
+ <input type="button" id="no4"
+onclick="pressno4()"
+ value="hindi eh"/>
+ <input type="button" id="no5"
+onclick="pressno5()"
+ value="hindi eh"/>
+  <input type="button" id="no6"
+onclick="pressno6()"
+  value="hindi eh"/>
+  <script>
+    function pressyes(){
+document.getElementById('yes').style.display= "none";
+document.getElementById('no').style.display= "none";
+document.getElementById('no1').style.display= "none";
+document.getElementById('no2').style.display= "none";
+document.getElementById('no3').style.display= "none";
+document.getElementById('no4').style.display= "none";
+document.getElementById('no5').style.display= "none";
+document.getElementById('no6').style.display= "none";
+
+      document.getElementById('first').style.display= "none";
+      document.getElementById('yie').style.display= "block";
+    }
+    </script>
+    <script>
+    function pressno(){
+document.getElementById('no').style.display= "none";
+document.getElementById('no1').style.display= "block";
+    }
+   function pressno1(){
+document.getElementById('no1').style.display= "none";
+document.getElementById('no2').style.display= "block";
+    }
+function pressno2(){
+document.getElementById('no2').style.display= "none";
+document.getElementById('no3').style.display= "block";
+    }
+function pressno3(){
+document.getElementById('no3').style.display= "none";
+document.getElementById('no4').style.display= "block";
+    }
+function pressno4(){
+document.getElementById('no4').style.display= "none";
+document.getElementById('no5').style.display= "block";
+    }
+function pressno5(){
+document.getElementById('no5').style.display= "none";
+document.getElementById('no6').style.display= "block";
+    }
+function pressno6(){
+document.getElementById('no6').style.display= "none";
+
+    }
+  </script>
+</body>
+  </html>
